@@ -1,3 +1,12 @@
+.estrelas__imagem{
+    background-image: url("../img/Star1.svg");
+    background-repeat: repeat-x;
+    background-position: center;
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+}
+
 .carrossel__titulo{
     color: var(--laranja);
     background-color: var(--branco);
@@ -25,9 +34,7 @@
 .card__descricao{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.5em;
-    background-image: url("../img/Star\ 1.svg");
-    background-repeat: repeat-x;   
+    margin-bottom: 0.5em;  
 }
 
 .card__botoes{
@@ -46,7 +53,6 @@
     padding: 1em;
     margin: 1em;
 }
-
 
 .descricao__titulo{
     color: var(--laranja);
